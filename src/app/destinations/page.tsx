@@ -25,7 +25,7 @@ export default function DestinationsList() {
             <div className="container" style={{ marginTop: '120px' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))', gap: '80px' }}>
                     {destinations.map((dest) => (
-                        <Link href={`/destinations/${dest.id}`} key={dest.id} style={{ display: 'block', textDecoration: 'none', color: 'inherit', group: 'hover' }}>
+                        <Link href={`/destinations/${dest.id}`} key={dest.id} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
                             <div style={{ height: '560px', position: 'relative', marginBottom: '32px', overflow: 'hidden' }}>
                                 <Image
                                     src={dest.image}
