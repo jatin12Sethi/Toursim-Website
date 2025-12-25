@@ -19,7 +19,7 @@ export default function Journal() {
             <div className="container" style={{ paddingTop: '160px' }}>
                 <h1 style={{ fontSize: '64px', fontFamily: 'var(--font-playfair)', marginBottom: '80px', textAlign: 'center' }}>The Journal</h1>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '80px' }}>
+                <div className="grid-cols-2">
                     {stories.map((story) => (
                         <article key={story.id} style={{ cursor: 'pointer' }}>
                             <div style={{ height: '400px', backgroundColor: '#E5E5E5', marginBottom: '32px', position: 'relative', overflow: 'hidden' }}>

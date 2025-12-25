@@ -39,7 +39,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="container" style={{ marginTop: '80px', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '40px', display: 'flex', justifyContent: 'space-between', fontSize: '12px', opacity: 0.4 }}>
+            <div className="container" style={{ marginTop: '80px', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '40px', display: 'flex', flexWrap: 'wrap', gap: '24px', justifyContent: 'space-between', fontSize: '12px', opacity: 0.4 }}>
                 <span>© 2025 Sanctuary Resorts. All rights reserved.</span>
                 <div style={{ display: 'flex', gap: '24px' }}>
                     <span>Privacy Policy</span>

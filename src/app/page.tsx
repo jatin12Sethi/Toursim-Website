@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="container" style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', color: 'white', paddingTop: '80px' }}>
           <span style={{ fontSize: '14px', letterSpacing: '3px', marginBottom: '24px', textTransform: 'uppercase', opacity: 0.9 }} className="animate-fade-in">The Collection</span>
-          <h1 style={{ fontSize: '96px', maxWidth: '900px', lineHeight: '1', marginBottom: '32px', letterSpacing: '-2px' }} className="animate-fade-in">
+          <h1 className="animate-fade-in hero-title" style={{ maxWidth: '900px', marginBottom: '32px', letterSpacing: '-2px' }}>
             Disconnect <br /> to Reconnect.
           </h1>
           <p style={{ maxWidth: '440px', fontSize: '18px', marginBottom: '56px', opacity: 0.9, lineHeight: '1.6' }} className="animate-fade-in">
@@ -37,9 +37,9 @@ export default function Home() {
 
       {/* Intro Section */}
       <section className="section-padding container">
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '80px', alignItems: 'center' }}>
+        <div className="grid-cols-2" style={{ alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontSize: '56px', marginBottom: '24px', fontFamily: 'var(--font-playfair)', color: 'var(--color-primary)' }}>
+            <h2 className="section-title" style={{ marginBottom: '24px', fontFamily: 'var(--font-playfair)', color: 'var(--color-primary)' }}>
               A new standard for <br /> <span style={{ fontStyle: 'italic', color: 'var(--color-accent)' }}>quiet luxury</span>.
             </h2>
           </div>
